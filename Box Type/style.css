@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.block-box {
+  margin-bottom: 50px;
+  background-color: #cdcdcf;
+  color: #ffffff;
+}
+
+h1 {
+  width: 500px;
+  height: 50px;
+  background-color: #2e64fe;
+}
+
+p {
+  width: 100px;
+  height: 30px;
+  background-color: #4c77ef;
+}
+
+.inline-box {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+a,
+em {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.inline-block-box {
+  background-color: #ffc82c;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+}
