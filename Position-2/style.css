@@ -86,20 +86,20 @@ strong span {
 
 .sub-card {
   position: relative;
-  padding: 15px 20px;
-  border-radius: 20px;
+  padding: 20px 25px;
   border: 1px solid #ffffff;
+  border-radius: 20px;
   background-color: #6699ee;
 }
 
 .sub-card::after {
+  display: block;
   position: absolute;
   top: 40%;
   right: 5%;
   background: url(./assets/icon-backward.svg);
   background-size: contain;
   content: '';
-  display: block;
   width: 25px;
   height: 25px;
 }
