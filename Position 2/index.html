@@ -12,9 +12,27 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <img src="./assets/card-img.jpg" alt="Travel Card Image" />
-    <h1>샌디에고 자유 일정</h1>
-    <h2>쏭트래블</h2>
-    <p>1인 185,000원</p>
+    <div class="card">
+      <div class="card-carousel">
+        <img src="./assets/card-img.jpg" alt="Travel Card Image" />
+        <button type="button" aria-label="이전" id="prev"></button>
+        <button type="button" aria-label="다음" id="next"></button>
+      </div>
+      <div class="card-content">
+        <h1>샌디에고 1박 2일 자유 일정</h1>
+        <span>쏭트래블</span>
+        <strong>
+          <span>1인</span>
+          185,000원
+        </strong>
+        <div class="sub-card">
+          <a href="#">
+            <span class="category">해외 항공</span>
+            <span class="card-discount">카드 결제 혜택</span>
+            <span class="add-benefit">즉시 할인</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -6,3 +6,124 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+button {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+}
+
+.card {
+  width: 400px;
+}
+
+.card-carousel {
+  position: relative;
+}
+
+.card-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-carousel #prev {
+  left: 0;
+  background-image: url(./assets/icon-forward.svg);
+}
+
+.card-carousel #next {
+  right: 0;
+  background-image: url(./assets/icon-backward.svg);
+}
+
+.card-content {
+  padding: 12px 16px;
+  background-color: #ffffff;
+}
+
+.card-content h1 {
+  margin-bottom: 2px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #1f2d3d;
+  line-height: 1.45;
+}
+
+.card-content > span {
+  font-size: 16px;
+  color: #7d858f;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.card-content strong {
+  display: block;
+  color: #2860e1;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.09;
+  text-align: right;
+}
+
+strong span {
+  color: #273444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.sub-card {
+  position: relative;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  background-color: #6699ee;
+}
+
+.sub-card::after {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  background: url(./assets/icon-backward.svg);
+  background-size: contain;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.sub-card a {
+  text-decoration: none;
+}
+
+.sub-card span {
+  display: block;
+  color: #ffffff;
+}
+
+.category {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-discount {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.add-benefit {
+  font-size: 12px;
+}
