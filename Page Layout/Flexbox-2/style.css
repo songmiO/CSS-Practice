@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* 공통적으로 적용되는 부분 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.02;
+}
+
+.mail-card {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mail-card-user {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.mail-card-content h1 {
+  color: #1f2d3d;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.mail-card-content strong {
+  color: #afb3b9;
+  font-size: 14px;
+  line-height: 1.4285714286;
+  text-decoration: none;
+}
+
+.mail-card-content p {
+  color: #79818b;
+  font-size: 16px;
+  line-height: 1.6;
+}

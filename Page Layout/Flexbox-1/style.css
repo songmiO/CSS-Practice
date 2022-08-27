@@ -34,16 +34,3 @@ body {
 .nav-item:active {
   border-bottom: 2px solid #004fff;
 }
-
-.nav-item:hover .sub-nav {
-  display: block;
-}
-
-.sub-nav {
-  display: none;
-  list-style-type: none;
-}
-
-.sub-nav:hover {
-  background-color: #e0e0e0;
-}
