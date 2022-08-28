@@ -5,22 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <img src="./assets/icon-profile.png" alt="Profile Image" />
-    <h1>Chris Evans</h1>
-    <strong>Ireland.USA</strong>
-    <dl>
-      <dt>Following</dt>
-      <dd>110</dd>
-    </dl>
-    <dl>
-      <dt>Post</dt>
-      <dd>5</dd>
-    </dl>
-    <dl>
-      <dt>Follower</dt>
-      <dd>100</dd>
-    </dl>
+    <section class="profile">
+      <img
+        src="./assets/icon-profile.png"
+        alt="Profile Image"
+        class="profile-image"
+      />
+      <h1 class="profile-name">Chris Evans</h1>
+      <p class="profile-location">Ireland.USA</p>
+      <dl class="profile-detail">
+        <div class="profile-detail-item">
+          <dt>Following</dt>
+          <dd>110</dd>
+        </div>
+        <div class="profile-detail-item">
+          <dt>Post</dt>
+          <dd>5</dd>
+        </div>
+        <div class="profile-detail-item">
+          <dt>Follower</dt>
+          <dd>100</dd>
+        </div>
+      </dl>
+    </section>
   </body>
 </html>

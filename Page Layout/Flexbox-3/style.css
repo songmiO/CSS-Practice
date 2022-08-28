@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* 카드 전체 가운데 정렬 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Muli', sans-serif;
+  background-color: #e0e0e0;
+}
+
+/* 세로 정렬 */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  padding: 32px 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+/* img는 width, height값이 가능! */
+.profile-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.profile-name {
+  margin-bottom: 4px;
+  color: #273444;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3333333333;
+}
+
+.profile-location {
+  margin-bottom: 32px;
+  color: #8492a6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4285714286;
+}
+
+.profile-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-detail-item dt {
+  color: #8492a6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+}
+
+.profile-detail-item dd {
+  color: #0066ff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.25;
+}
