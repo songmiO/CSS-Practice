@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* 애니메이션 추가 - 애니메이션 교차로 무한 반복 */
+.loading-title {
+  margin-bottom: 20px;
+  color: #151b26;
+  font-size: 18px;
+  line-height: 1.3333333333;
+  animation-name: flicker;
+  animation-duration: 1600ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+
+/* 프로그래스바와 프로그래스 게이지 각각 스타일 주기 */
+.progress-bar {
+  position: relative;
+  width: 300px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #e5eaef;
+  overflow: hidden;
+  text-align: center;
+}
+
+.progress-bar-gauge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #13ce66;
+  animation-name: loading-bar;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* 로딩이 깜박깜박 거리게 만든다. opacity 사용 */
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* 초기값은 0 -> 점점 100 */
+/* @keyframes loading-bar {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+} */
+
+/* 좀 더 세밀하게 조정 - 0 ~ 90%는 width 늘어남, 90% ~ 100%는 투명도 높이기 */
+@keyframes loading-bar {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  800% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  to {
+    width: 100%;
+    opacity: 0;
+  }
+}

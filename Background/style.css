@@ -2,21 +2,3 @@
   box-sizing: border-box;
   margin: 0;
 }
-
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-.loading-title {
-  margin-bottom: 20px;
-  color: #151b26;
-  font-size: 18px;
-  line-height: 1.3333333333;
-}
-
-.progress-bar-gauge {
-  width: 300px;
-  height: 12px;
-  color: #e5eaef;
-  border-radius: 100px;
-}
