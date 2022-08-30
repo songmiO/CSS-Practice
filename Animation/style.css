@@ -50,7 +50,7 @@ body {
   animation-name: loading-bar;
   animation-duration: 2000ms;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
 }
 
 /* 로딩이 깜박깜박 거리게 만든다. opacity 사용 */
