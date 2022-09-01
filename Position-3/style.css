@@ -19,6 +19,10 @@ body {
   background-color: #ffffff;
 }
 
+.show-modal {
+  display: block;
+}
+
 .modal-title {
   margin-bottom: 4px;
   color: #1f2d3d;
