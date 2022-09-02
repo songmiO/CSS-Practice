@@ -16,3 +16,7 @@ openModalBtn.addEventListener('click', () => {
 closeModalBtn.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+document.querySelector('#alert-box').style.display = 'block';
+
+document.querySelector('.alert').style.display = 'none';
