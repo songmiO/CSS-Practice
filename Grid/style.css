@@ -2,3 +2,47 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.color1 {
+  background-color: #0b6db7;
+}
+
+.color2 {
+  background-color: #00b5e3;
+}
+
+.color3 {
+  background-color: #5ac6d0;
+}
+
+.color4 {
+  background-color: #00a6a9;
+}
+
+.color5 {
+  background-color: #5dc19b;
+}
+
+.color6 {
+  background-color: #6c71b5;
+}
+
+.color7 {
+  background-color: #448ccb;
+}
+
+.color8 {
+  background-color: #006494;
+}
+
+.color9 {
+  background-color: #026892;
+}
+
+.color10 {
+  background-color: #6a5ba8;
+}
